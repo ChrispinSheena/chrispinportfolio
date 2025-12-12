@@ -40,7 +40,7 @@ export default function Projects() {
       school: "Loyola-ICAM College of Engineering and Technology",
       degree: "B.Tech - Information Technology",
       year: "2021 – 2025",
-      grade: "CGPA: 8.03"
+      grade: "CGPA: 8.05"
     },
     {
       school: "Christuraja Matriculation Higher Secondary School",
@@ -91,8 +91,7 @@ export default function Projects() {
                 <TimelineItem>
                   <TimelineOppositeContent sx={{ m: 'auto 0' }}
                     align="right"
-                    variant="body2"
-                    color="text.secondary">
+                    variant="body2">
                     {project.period}
                   </TimelineOppositeContent>
                   <TimelineSeparator>
@@ -123,8 +122,7 @@ export default function Projects() {
                 <TimelineItem>
                   <TimelineOppositeContent sx={{ m: 'auto 0' }}
                     align="right"
-                    variant="body2"
-                    color="text.secondary">
+                    variant="body2">
                     <Typography>{edu.year}</Typography>
                     <Typography>{edu.grade}</Typography>
                   </TimelineOppositeContent>
