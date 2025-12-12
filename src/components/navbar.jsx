@@ -50,7 +50,7 @@ export default function Navbar() {
           </ul>
 
           
-          <span className="navbar-text d-flex align-items-center gap-2 ms-3">
+          <span className="navbar-text d-flex align-items-center gap-2">
             <button
               className="btn btn-outline-dark px-3 py-1 cursor-pointer"
               onClick={() => setDark(!dark)}
